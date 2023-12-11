@@ -15,9 +15,7 @@ export const GlobalStyles = createGlobalStyle`
         background: ${({ theme }) => theme.colors.navyBlue};
         font-size: 12px;  
     }
-    body {
-        height: 200vh;
-    }
+   
     a {
         text-decoration: none;
         color: ${({ theme }) => theme.colors.green};
@@ -41,4 +39,19 @@ export const GlobalStyles = createGlobalStyle`
         border:0;
         height: 1px
     }
+
+    /*  custom scroll bar */
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #7a8ba9;
+}
+::-webkit-scrollbar-thumb{
+    background: #31435f;
+    border-radius: 30px; 
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #202e46;
+}
 `;

@@ -1,5 +1,7 @@
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
+import TopBanner from "./components/layout/TopBanner";
+import HeroSection from "./components/sections/HeroSection";
 import { GlobalStyles } from "./components/styles/Globals.styled";
 import { ThemeProvider } from "styled-components";
 
@@ -21,7 +23,9 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
+        <TopBanner />
         <Navbar />
+        <HeroSection />
       </ThemeProvider>
     </>
   );
