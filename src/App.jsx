@@ -4,6 +4,8 @@ import TopBanner from "./components/layout/TopBanner";
 import HeroSection from "./components/sections/HeroSection";
 import { GlobalStyles } from "./components/styles/Globals.styled";
 import { ThemeProvider } from "styled-components";
+import { Container } from "./components/styles/common/Container.styled";
+import AboutSection from "./components/sections/AboutSection";
 
 function App() {
   const theme = {
@@ -26,6 +28,9 @@ function App() {
         <TopBanner />
         <Navbar />
         <HeroSection />
+        <Container>
+          <AboutSection />
+        </Container>
       </ThemeProvider>
     </>
   );
