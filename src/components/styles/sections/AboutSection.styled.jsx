@@ -130,3 +130,7 @@ export const StyledWaveEmoji = styled.span`
     animation: ${wave} 2.5s infinite; 
     transform-origin: 70% 70%;
 `
+
+export const StyledSpan = styled.span`
+  color: ${({ theme }) => theme.colors.green};
+`;
