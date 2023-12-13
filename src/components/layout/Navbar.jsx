@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ImgProfile from "/home/stanley/Desktop/my-portfolio/src/assets/profileImg.jpg";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 
 import {
@@ -15,7 +14,7 @@ import {
   Profile,
   SocialIcons,
 } from "../styles/layout/Nav.styled";
-import logo from "/home/stanley/Desktop/my-portfolio/src/assets/logos/white.png";
+
 import { NavItems } from "../../data/NavItems";
 import { CTAButton } from "../styles/common/CTAButton.styled";
 import useScrollDirection from "../../hooks/useScrollDirection";
@@ -28,10 +27,10 @@ const Navbar = () => {
 
   return (
     <>
-      <Nav scrollDirection={scrollDirection}> 
+      <Nav scrollDirection={scrollDirection}>
         <div>
           <a href="#hero-section">
-            <Logo src={logo} />
+            <Logo src="./images/white.png" alt="logo" />
           </a>
         </div>
         <MenuIcon menuOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
@@ -51,7 +50,7 @@ const Navbar = () => {
                 {navItem.isProfile ? (
                   <NavLink href="#hero-section">
                     <Profile>
-                      <img src={ImgProfile} alt="stanley" />
+                      <img src="./images/profileImg.jpg" alt="stanley" />
                       <span>Stanley Macharia</span>
                     </Profile>
                   </NavLink>
@@ -77,7 +76,7 @@ const Navbar = () => {
                   </SocialIcons>
                 ) : null}
                 {navItem.hasCTA ? (
-                  <CTAButton href="#" target="_blank">
+                  <CTAButton href="#" download="Resume">
                     Download My Resume
                   </CTAButton>
                 ) : null}
