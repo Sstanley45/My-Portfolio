@@ -8,6 +8,9 @@ import { Container } from "./components/styles/common/Container.styled";
 import AboutSection from "./components/sections/AboutSection";
 import ProjectSection from "./components/sections/ProjectSection";
 import ServicesSection from "./components/sections/ServicesSection";
+import ContactSection from "./components/sections/ContactSection";
+
+
 
 function App() {
   const theme = {
@@ -17,7 +20,7 @@ function App() {
       lightNavyBlue: "rgba(4,22,40,1)",
       green: "rgba(0, 206, 158, 1)",
       orange: "rgba(249, 105, 14, 1)",
-      purple: "rgba(102, 51, 153, 1)",
+      purple: "rgb(102, 51, 153)",
     },
     mobile: "768px",
     transition: "all 658ms ease-in-out",
@@ -34,6 +37,7 @@ function App() {
           <AboutSection />
           <ProjectSection />
           <ServicesSection />
+          <ContactSection />
         </Container>
       </ThemeProvider>
     </>
