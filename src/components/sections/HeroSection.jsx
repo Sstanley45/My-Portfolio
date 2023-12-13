@@ -17,7 +17,7 @@ const HeroSection = () => {
         <h1>Stanley Macharia</h1>
         <h3>{"{Web Developer}"}</h3>
         <p>
-          HTML | CSS | JavaScript | React | NodeJS | NextJS | TypeScript |
+          HTML | CSS | JavaScript | React | NodeJS | NextJS | TypeScript | MongoDB | 
           Tailwind CSS | WordPress
         </p>
         <div>

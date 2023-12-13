@@ -6,6 +6,8 @@ import { GlobalStyles } from "./components/styles/Globals.styled";
 import { ThemeProvider } from "styled-components";
 import { Container } from "./components/styles/common/Container.styled";
 import AboutSection from "./components/sections/AboutSection";
+import ProjectSection from "./components/sections/ProjectSection";
+import ServicesSection from "./components/sections/ServicesSection";
 
 function App() {
   const theme = {
@@ -30,6 +32,8 @@ function App() {
         <HeroSection />
         <Container>
           <AboutSection />
+          <ProjectSection />
+          <ServicesSection />
         </Container>
       </ThemeProvider>
     </>

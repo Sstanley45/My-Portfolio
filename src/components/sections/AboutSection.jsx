@@ -45,7 +45,7 @@ const AboutSection = () => {
             development process. Additionally, I utilize
             <StyledSpan> Tailwind CSS</StyledSpan> to streamline styling and
             design, maintaining a clean and modular codebase. With experience in
-            WordPress, I showcase versatility in handling diverse platforms.
+             <StyledSpan> WordPress</StyledSpan>, I showcase versatility in handling diverse platforms.
             Explore my portfolio to witness the synergy of this comprehensive
             tech stack in action through a collection of projects that reflect
             my dedication to innovation and quality in web development.
