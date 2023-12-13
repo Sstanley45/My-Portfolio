@@ -1,7 +1,7 @@
 import React from "react";
-import {FaGithub, FaLink} from 'react-icons/fa'
+import { FaGithub, FaLink } from "react-icons/fa";
 import {
-    ProjectDescription,
+  ProjectDescription,
   ProjectImageContainer,
   SingleProject,
   SlantedCard,
@@ -14,7 +14,7 @@ import { Projects } from "../../data/Projects";
 const ProjectSection = () => {
   return (
     <>
-      <StyledProjectSection>
+      <StyledProjectSection id="projects">
         <SectionHeading>
           <h1>Projects</h1>
           <p>These are some of my projects</p>
@@ -28,15 +28,15 @@ const ProjectSection = () => {
                     href={project.projectLink}
                     target="_blank"
                   >
-                          <img src={project.thumbnail} alt={project.title} />
-                          <SlantedCard />
+                    <img src={project.thumbnail} alt={project.title} />
+                    <SlantedCard />
                   </ProjectImageContainer>
                   <ProjectDescription>
                     <h1>{project.title}</h1>
                     <Tags>
                       {project.tags &&
                         project.tags.map((tag, tagIndex) => {
-                            return <span key={tagIndex}>{ tag }</span>;
+                          return <span key={tagIndex}>{tag}</span>;
                         })}
                     </Tags>
                     <p>{project.paragraph}</p>
@@ -47,7 +47,7 @@ const ProjectSection = () => {
                       </a>
                       <a href={project.projectLink} target="_blank">
                         <FaLink />
-                        <span>View Project</span> 
+                        <span>View Project</span>
                       </a>
                     </div>
                   </ProjectDescription>
