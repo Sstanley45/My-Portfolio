@@ -17,17 +17,17 @@ const HeroSection = () => {
         <h1>Stanley Macharia</h1>
         <h3>{"{Web Developer}"}</h3>
         <p>
-          HTML | CSS | JavaScript | React | NodeJS | NextJS | TypeScript | MongoDB | 
-          Tailwind CSS | WordPress
+          HTML | CSS | JavaScript | React | NodeJS | NextJS | TypeScript |
+          MongoDB | Tailwind CSS | WordPress
         </p>
         <div>
           <CTAButton href="#projects">Projects</CTAButton>
-          <CTAButton href="#contact" primary margin="0 0 0 20px">
+          <CTAButton href="#contacts" primary margin="0 0 0 20px">
             Hire Me
           </CTAButton>
         </div>
       </HeroContent>
-      <StyledArrowDown href="#about">
+      <StyledArrowDown href="#about">  
         <FaArrowDown />
       </StyledArrowDown>
       <HeroSocialIcons>

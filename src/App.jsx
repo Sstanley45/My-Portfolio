@@ -9,8 +9,7 @@ import AboutSection from "./components/sections/AboutSection";
 import ProjectSection from "./components/sections/ProjectSection";
 import ServicesSection from "./components/sections/ServicesSection";
 import ContactSection from "./components/sections/ContactSection";
-
-
+import Footer from "./components/layout/Footer";
 
 function App() {
   const theme = {
@@ -39,6 +38,7 @@ function App() {
           <ServicesSection />
           <ContactSection />
         </Container>
+        <Footer /> 
       </ThemeProvider>
     </>
   );
