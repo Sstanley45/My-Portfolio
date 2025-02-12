@@ -76,7 +76,10 @@ const Navbar = () => {
                   </SocialIcons>
                 ) : null}
                 {navItem.hasCTA ? (
-                  <CTAButton href="./images/resume.pdf" download="Resume">
+                  <CTAButton
+                    href="./images/Stanley Macharia CV.pdf"
+                    download="Resume"
+                  >
                     Download My Resume
                   </CTAButton>
                 ) : null}
