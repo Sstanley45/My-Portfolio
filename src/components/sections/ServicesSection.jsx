@@ -12,7 +12,7 @@ import { SectionHeading } from "../styles/common/SectionHeading.styled";
 const ServicesSection = () => {
   return (
     <>
-      <StyledServicesSection id="services"> 
+      <StyledServicesSection id="services">
         <SectionHeading>
           <h1>Services</h1>
           <p>Exited to work with you!</p>
@@ -51,6 +51,19 @@ const ServicesSection = () => {
               My services extend to WordPress, where I leverage my expertise to
               create dynamic and visually captivating websites, tailored to meet
               your unique needs and elevate your online presence.
+            </p>
+          </SingleService>
+          <SingleService>
+            <IconWrapper>
+              <FaLaptopCode />
+            </IconWrapper>
+            <h1>ERP Systems</h1>
+            <p>
+              I specialize in developing and customizing ERP systems to
+              streamline business operations, enhance productivity, and optimize
+              workflow efficiency. My expertise ensures seamless integration,
+              automation, and scalability tailored to your unique business
+              needs.
             </p>
           </SingleService>
         </ServicesItems>
