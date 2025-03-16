@@ -15,19 +15,20 @@ const HeroSection = () => {
     <StyledHeroSection id="hero-section">
       <HeroContent>
         <h1>Stanley Macharia</h1>
-        <h3>{"{Web Developer}"}</h3>
+        <h3>{"{Software Engineer}"}</h3>
         <p>
-          HTML | CSS | JavaScript | React | NodeJS | NextJS | TypeScript |
-          MongoDB | Tailwind CSS | WordPress
+          JavaScript | Python | ReactJS | NodeJS | NextJS | TypeScript | MongoDB
+          | Postgress DB | HTML | CSS | Tailwind CSS | Material UI | WordPress
         </p>
+        <p>Frappe | ERPNext | SQL</p>
         <div>
           <CTAButton href="#projects">Projects</CTAButton>
           <CTAButton href="#contacts" primary margin="0 0 0 20px">
-            Hire Me
+            Get In Touch
           </CTAButton>
         </div>
       </HeroContent>
-      <StyledArrowDown href="#about">  
+      <StyledArrowDown href="#about">
         <FaArrowDown />
       </StyledArrowDown>
       <HeroSocialIcons>

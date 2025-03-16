@@ -15,7 +15,7 @@ const Footer = () => {
           <a href="#services">Services</a>
           <a href="#contacts">Contact</a>
         </FooterNav>
-        <CodedWith>Coded with ReactJs and Styled Components</CodedWith>
+        {/* <CodedWith>Coded with ReactJs and Styled Components</CodedWith> */}
         <div>all rights reserved &copy; {new Date().getFullYear()} </div>
       </StyledFooter>
     </>

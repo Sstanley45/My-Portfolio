@@ -77,3 +77,64 @@ export const ContactImgWrapper = styled.div`
     margin-bottom: 2rem;
   }
 `;
+
+
+export const ContactForm = styled.form`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    width: 90%;
+  }
+`;
+
+export const InputField = styled.input`
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+
+  &:focus {
+    border-color: ${({ theme }) => theme.primary};
+  }
+`;
+
+export const TextArea = styled.textarea`
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  resize: none;
+
+  &:focus {
+    border-color: ${({ theme }) => theme.primary};
+  }
+`;
+
+export const SubmitButton = styled.button`
+  background: ${({ theme }) => theme.primary};
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s ease-in-out;
+
+  &:hover {
+    background: ${({ theme }) => theme.secondary};
+  }
+`;
