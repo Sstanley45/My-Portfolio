@@ -7,7 +7,6 @@ import {
   ContactForm,
   InputField,
   TextArea,
-  SubmitButton,
 } from "../styles/sections/ContactSection.styled";
 import { SectionHeading } from "../styles/common/SectionHeading.styled";
 import { FaEnvelope, FaLinkedin } from "react-icons/fa";
@@ -25,8 +24,7 @@ const ContactSection = () => {
           <ContactInfo>
             <p>
               Ready to turn your ideas into reality or discuss how my services
-              can benefit you? Feel free to reach out! I'm just a click away,
-              eager to collaborate and bring your vision to life.
+              can benefit you? Feel free to reach out! I'm just a click away.
             </p>
             <p>
               <i>Let's connect and make your digital goals a reality.</i>
